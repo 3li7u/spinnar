@@ -19,7 +19,7 @@ async function openModal(spinnerData) {
   // read css file
   let cssCode;
   try {
-    const res = await fetch(`./css/spinners/${spinnerData.className}.css`);
+    const res = await fetch(`css/spinners/${spinnerData.className}.css`);
     cssCode = await res.text();
   } catch (error) {
     console.log(error)
