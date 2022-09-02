@@ -1,0 +1,28 @@
+@import url("./spinner-01.css");
+
+@import url("./spinner-02.css");
+
+@import url("./spinner-03.css");
+
+@import url("./spinner-04.css");
+
+@import url("./spinner-05.css");
+
+@import url("./spinner-06.css");
+
+@import url("./spinner-07.css");
+
+@import url("./spinner-08.css");
+
+@import url("./spinner-09.css");
+
+/* Spinner global styles */
+/* You can override them in your own styles */
+.spinner {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
