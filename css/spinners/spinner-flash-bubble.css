@@ -7,8 +7,7 @@
   justify-content: center;
 }
 
-.spinner-05::before,
-.spinner-05::after {
+.spinner-flash-bubble::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -26,19 +25,11 @@
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+  animation: spinner-flash-bubble 1s ease infinite;
+  -webkit-animation: spinner-flash-bubble 1s ease infinite;
 }
 
-.spinner-05::before {
-  animation: spinner-04 1s linear infinite;
-  -webkit-animation: spinner-04 1s linear infinite;
-}
-
-.spinner-05::after {
-  animation: spinner-05 1s 0.5s linear infinite;
-  -webkit-animation: spinner-05 1s 0.5s linear infinite;
-}
-
-@keyframes spinner-05 {
+@keyframes spinner-flash-bubble {
   to {
     opacity: 0;
     width: 70px;

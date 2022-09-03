@@ -7,7 +7,8 @@
   justify-content: center;
 }
 
-.spinner-04::before {
+.spinner-stone-pond::before,
+.spinner-stone-pond::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -25,11 +26,19 @@
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
-  animation: spinner-04 1s ease infinite;
-  -webkit-animation: spinner-04 1s ease infinite;
 }
 
-@keyframes spinner-04 {
+.spinner-stone-pond::before {
+  animation: spinner-stone-pond 1s linear infinite;
+  -webkit-animation: spinner-stone-pond 1s linear infinite;
+}
+
+.spinner-stone-pond::after {
+  animation: spinner-stone-pond 1s 0.5s linear infinite;
+  -webkit-animation: spinner-stone-pond 1s 0.5s linear infinite;
+}
+
+@keyframes spinner-stone-pond {
   to {
     opacity: 0;
     width: 70px;

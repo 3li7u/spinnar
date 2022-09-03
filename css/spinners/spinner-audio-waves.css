@@ -1,0 +1,46 @@
+.spinner {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner-audio-waves {
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.spinner-audio-waves .line {
+  width: 5px;
+  height: 10px;
+  background-color: var(--primary-color);
+  border-radius: 50em;
+  animation: spinner-audio-waves 0.45s alternate infinite linear;
+  -webkit-animation: spinner-audio-waves 0.45s alternate infinite linear;
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  -ms-border-radius: 50em;
+  -o-border-radius: 50em;
+}
+
+.spinner-audio-waves .line:nth-child(2),
+.spinner-audio-waves .line:nth-child(6) {
+  animation-delay: 0.15s;
+}
+
+.spinner-audio-waves .line:nth-child(3),
+.spinner-audio-waves .line:nth-child(5) {
+  animation-delay: 0.3s;
+}
+
+.spinner-audio-waves .line:nth-child(4) {
+  animation-delay: 0.45s;
+}
+
+@keyframes spinner-audio-waves {
+  to {
+    height: 35px;
+  }
+}

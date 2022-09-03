@@ -6,12 +6,14 @@
   align-items: center;
   justify-content: center;
 }
-.spinner-08 {
+
+.spinner-flip-box {
   background-color: var(--light-color);
   justify-content: unset;
   align-items: unset;
 }
-.spinner-08::before {
+
+.spinner-flip-box::before {
   content: "";
   position: absolute;
   top: 0;
@@ -19,11 +21,11 @@
   width: 35px;
   height: 35px;
   background-color: var(--primary-color);
-  animation: spinner-08 1s infinite;
-  -webkit-animation: spinner-08 1s infinite;
+  animation: spinner-flip-box 1s infinite;
+  -webkit-animation: spinner-flip-box 1s infinite;
 }
 
-@keyframes spinner-08 {
+@keyframes spinner-flip-box {
   25% {
     transform-origin: right center;
     transform: rotateY(180deg);
@@ -32,6 +34,7 @@
     -ms-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
   }
+
   50% {
     transform-origin: right bottom;
     transform: rotate(180deg);
@@ -40,6 +43,7 @@
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
   }
+
   75% {
     transform-origin: center bottom;
     transform: rotateX(180deg);

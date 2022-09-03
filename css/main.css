@@ -222,6 +222,7 @@ section {
   bottom: 0;
   left: 0;
   font-size: 12px;
+  color: var(--primary-color);
   text-align: center;
   transition: all .3s;
   -webkit-transition: all .3s;

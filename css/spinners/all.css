@@ -1,20 +1,22 @@
-@import url("./spinner-01.css");
+@import url("./spinner-loading.css");
 
-@import url("./spinner-02.css");
+@import url("./spinner-loading-bg.css");
 
-@import url("./spinner-03.css");
+@import url("./spinner-loading-tail-bg.css");
 
-@import url("./spinner-04.css");
+@import url("./spinner-flash-bubble.css");
 
-@import url("./spinner-05.css");
+@import url("./spinner-stone-pond.css");
 
-@import url("./spinner-06.css");
+@import url("./spinner-flash-circles.css");
 
-@import url("./spinner-07.css");
+@import url("./spinner-swing-flash-circles.css");
 
-@import url("./spinner-08.css");
+@import url("./spinner-flip-box.css");
 
-@import url("./spinner-09.css");
+@import url("./spinner-wav-lines.css");
+
+@import url("./spinner-audio-waves.css");
 
 /* Spinner global styles */
 /* You can override them in your own styles */

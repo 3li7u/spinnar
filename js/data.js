@@ -1,27 +1,27 @@
 let spinnersData = [
   {
-    name: 'spinner-01',
-    className: 'spinner-01',
+    name: 'Loading spinner',
+    className: 'spinner-loading',
   },
   {
-    name: 'spinner-02',
-    className: 'spinner-02',
+    name: 'Loading spinner with background',
+    className: 'spinner-loading-bg',
   },
   {
-    name: 'spinner-03',
-    className: 'spinner-03',
+    name: 'Loading spinner with tail and background',
+    className: 'spinner-loading-tail-bg',
   },
   {
-    name: 'spinner-04',
-    className: 'spinner-04',
+    name: 'Flashing Bubble',
+    className: 'spinner-flash-bubble',
   },
   {
-    name: 'spinner-05',
-    className: 'spinner-05',
+    name: 'Stone effect in the pond',
+    className: 'spinner-stone-pond',
   },
   {
-    name: 'spinner-06',
-    className: 'spinner-06',
+    name: 'Flashing circles',
+    className: 'spinner-flash-circles',
     innerContent: [
       {
         className: 'dot',
@@ -35,8 +35,8 @@ let spinnersData = [
     ],
   },
   {
-    name: 'spinner-07',
-    className: 'spinner-07',
+    name: 'Swinging flashing circles',
+    className: 'spinner-swing-flash-circles',
     innerContent: [
       {
         className: 'dot',
@@ -50,13 +50,34 @@ let spinnersData = [
     ],
   },
   {
-    name: 'spinner-08',
-    className: 'spinner-08',
+    name: 'Flipping box',
+    className: 'spinner-flip-box',
   },
   {
-    name: 'spinner-09',
-    className: 'spinner-09',
+    name: 'Wavy lines',
+    className: 'spinner-wav-lines',
     innerContent: [
+      {
+        className: 'line',
+      },
+      {
+        className: 'line',
+      },
+      {
+        className: 'line',
+      },
+    ]
+  },
+  {
+    name: 'Audio waves',
+    className: 'spinner-audio-waves',
+    innerContent: [
+      {
+        className: 'line',
+      },
+      {
+        className: 'line',
+      },
       {
         className: 'line',
       },
