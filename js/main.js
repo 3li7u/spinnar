@@ -1,7 +1,7 @@
 import { getModalComponent, getSpinnerComponent } from './util/spinner-util.js';
 
 // get data
-import data from './data.js';
+import data from './data.js?v=0.1.0';
 
 // Render All Spinners 
 const spinnersContainer = document.querySelector('.spinners .row');
