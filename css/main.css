@@ -297,8 +297,8 @@ footer p a:hover {
   max-height: 90%;
   background-color: #fff;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-  position: relative;
   overflow: auto;
+  position: relative;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -324,32 +324,34 @@ footer p a:hover {
   -o-transform: translateY(0px);
 }
 
-.overlay .modal .content {
-  height: 100%;
+.overlay .modal .header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #fff;
+  padding: 15px;
+  border-bottom: 1px solid var(--light-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.overlay .modal .close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+.overlay .modal .header h4 {
+  margin: 0;
+  color: var(--primary-color);
+  text-transform: capitalize;
+}
+
+.overlay .modal .header .close {
   padding: 10px;
   cursor: pointer;
 }
 
-.overlay .modal .close i {
+.overlay .modal .header .close i {
   font-size: 22px;
   color: var(--dark-color);
-}
-
-.overlay .modal .header {
-  padding: 20px 30px;
-  border-bottom: 1px solid var(--light-color);
-}
-
-.overlay .modal .header h3 {
-  margin: 0;
-  color: var(--primary-color);
-  text-transform: capitalize;
 }
 
 .overlay .modal .main {
@@ -375,7 +377,7 @@ footer p a:hover {
 .overlay .modal .main .code {
   overflow: auto;
   padding: 10px;
-  background-color: rgba(33, 149, 243, 0.07);
+  background-color: rgba(33, 149, 243, 0.15);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -399,7 +401,7 @@ footer p a:hover {
 }
 
 .overlay .modal::-webkit-scrollbar-thumb {
-  background-color: #ddd;
+  background-color: #ccc;
   border-radius: 50em;
   -webkit-border-radius: 50em;
   -moz-border-radius: 50em;
@@ -418,7 +420,7 @@ footer p a:hover {
 }
 
 .overlay .modal .main .code::-webkit-scrollbar-thumb {
-  background-color: #ddd;
+  background-color: #ccc;
   border-radius: 50em;
   -webkit-border-radius: 50em;
   -moz-border-radius: 50em;
