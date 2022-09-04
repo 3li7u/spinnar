@@ -35,6 +35,21 @@ let spinnersData = [
     ],
   },
   {
+    name: 'Pulsating circles',
+    className: 'spinner-pulsate-circles',
+    innerContent: [
+      {
+        className: 'dot',
+      },
+      {
+        className: 'dot',
+      },
+      {
+        className: 'dot',
+      },
+    ],
+  },
+  {
     name: 'Swinging flashing circles',
     className: 'spinner-swing-flash-circles',
     innerContent: [
