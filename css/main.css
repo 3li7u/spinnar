@@ -169,6 +169,19 @@ header .note p {
   margin: 0;
 }
 
+header a.add-btn {
+  color: var(--dark-color);
+  text-decoration: none;
+  background-color: var(--light-color);
+  border: none;
+  padding: 10px;
+  border-radius: 50em;
+  -webkit-border-radius: 50em;
+  -moz-border-radius: 50em;
+  -ms-border-radius: 50em;
+  -o-border-radius: 50em;
+}
+
 /* Header */
 
 section {
@@ -242,7 +255,7 @@ footer {
   height: 60px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 
